@@ -3,8 +3,8 @@ import { Ionicons } from "@expo/vector-icons";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-import View1 from "./screens/View1";
-import View2 from "./screens/View2";
+import View1 from "../screens/View1";
+import View2 from "../screens/View2";
 
 const Tab = createBottomTabNavigator();
 
@@ -22,7 +22,6 @@ function MainTabNavigator() {
               iconName = focused ? "ios-information-circle" : "arrow-forward";
             }
 
-            // You can return any component that you like here!
             return <Ionicons name={iconName} size={size} color={color} />;
           },
           tabBarActiveTintColor: "dodgerblue",
