@@ -24,7 +24,6 @@ function App() {
               iconName = focused ? "ios-information-circle" : "arrow-forward";
             }
 
-            // You can return any component that you like here!
             return <Ionicons name={iconName} size={size} color={color} />;
           },
           tabBarActiveTintColor: "dodgerblue",
