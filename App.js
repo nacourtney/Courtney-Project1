@@ -5,35 +5,38 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
 import { Colors } from "react-native-paper";
 
-function View1() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "#55c6cf",
-      }}
-    >
-      <Text>Hello SER 423! my name is Nichole Courtney.</Text>
-    </View>
-  );
-}
+import View1 from "./screens/View1";
+import View2 from "./screens/View2";
 
-function View2() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "#dec466",
-      }}
-    >
-      <Text>Thanks for using my app!</Text>
-    </View>
-  );
-}
+// function View1() {
+//   return (
+//     <View
+//       style={{
+//         flex: 1,
+//         justifyContent: "center",
+//         alignItems: "center",
+//         backgroundColor: "#55c6cf",
+//       }}
+//     >
+//       <Text>Hello SER 423! my name is Nichole Courtney.</Text>
+//     </View>
+//   );
+// }
+
+// function View2() {
+//   return (
+//     <View
+//       style={{
+//         flex: 1,
+//         justifyContent: "center",
+//         alignItems: "center",
+//         backgroundColor: "#dec466",
+//       }}
+//     >
+//       <Text>Thanks for using my app!</Text>
+//     </View>
+//   );
+// }
 
 const Tab = createBottomTabNavigator();
 
